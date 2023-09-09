@@ -2,13 +2,13 @@
 
 **Information**
 
-* Sizda bir muammo bor ya’ni ko’p ishlarni qachon va qayerga bajarishni unitib qo'yasiz
+* Sizda Bir Muammo Bor Ya’ni Ko’p Ishlarni Qachon Va Qayerda Bajarishni Unitib Qo'yasiz ⏳
 
-* Bunday Vaziyatda Sizga Todo App Yordam Bera Oladi 
+* Bunday Vaziyatda Sizga Todo App Yordam Bera Oladi  😊
 
-* O'z Maqsadingiz,  Ishlaringizni Kiriting
+* O'z Maqsadingiz,  Ishlaringizni Kiriting 📌
 
-* Va Barchasi O'z Vaqtida Bo'lsin
+* Va Barchasi O'z Vaqtida Bo'lsin 🕗
 
 **Foydalanish**
 ```
