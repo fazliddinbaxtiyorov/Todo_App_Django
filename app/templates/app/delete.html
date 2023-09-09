@@ -1,0 +1,19 @@
+{% extends "app/base.html" %}
+{% load crispy_forms_tags %}
+{% block heading %}
+<div class="delete">
+    <p>Title: {{ task.title }}</p>
+    <p>Deadline: {{ task.deadline }}</p>
+    <p>Description: {{ task.description }}</p>
+</div>
+{% endblock heading %}
+
+{% block content %}
+<div class="res">
+    <form id="delete-form" method="POST" action="{% url 'delete_task' task.id %}">
+    <a href="{% url 'delete_task' task.id %}" title="Delete"><button type="submit">Delete Task</button></a>
+    {% csrf_token %}
+</form>
+
+</div>
+{% endblock content %}

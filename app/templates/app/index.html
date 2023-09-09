@@ -1,0 +1,32 @@
+{% extends "app/base.html" %}
+{% block heading %}
+<title>Todo App</title>
+<div class="title">
+    <h1>My Day</h1>
+    <h4>Today</h4>
+</div>
+{% endblock%}
+
+
+{% block content %}
+{% for i in todo %}
+<div class="container">
+    <div class="post">
+        <p>{{ i.title }}</p>
+        <a href="/show/{{ i.id }}" class="btn btn-outline-info">Shows</a>
+        <a href="/update/{{ i.id }}" class="btn btn-outline-warning">Edit</a>
+        <a href="/delete/{{ i.id }}" class="btn btn-outline-danger">Delete</a>
+    </div>
+</div>
+{% endfor %}
+<nav aria-label="Page navigation example">
+  <ul class="pagination">
+      {% if page_obj.has_previous %}
+          <li class="page-item"><a class="page-link" href="?page={{ page_obj.previous_page_number }}">Previous</a></li>
+      {% endif %}
+      {% if page_obj.has_next %}
+            <li class="page-item"><a class="page-link" href="?page={{ page_obj.next_page_number }}">Next</a></li>
+      {% endif %}
+  </ul>
+</nav>
+{% endblock %}
