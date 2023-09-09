@@ -1,13 +1,14 @@
 **Django Todo App**
 
 **Information**
-Sizda bir muammo bor ya’ni ko’p ishlarni qachon va qayerga bajarishni unitib qo'yasiz
 
-Bunday Vaziyatda Sizga Todo App Yordam Bera Oladi 
+* Sizda bir muammo bor ya’ni ko’p ishlarni qachon va qayerga bajarishni unitib qo'yasiz
 
-O'z Maqsadingiz,  Ishlaringizni Kiriting
+* Bunday Vaziyatda Sizga Todo App Yordam Bera Oladi 
 
-Va Barchasi O'z Vaqtida Bo'lsin
+* O'z Maqsadingiz,  Ishlaringizni Kiriting
+
+* Va Barchasi O'z Vaqtida Bo'lsin
 
 **Foydalanish**
 ```
@@ -23,4 +24,4 @@ git clone https://github.com/fazliddinbaxtiyorov/Todo_App_Django.git
 python manage.py runserver
 ```
 **Dastur Ko'rinishi**
-![image](https://github.com/fazliddinbaxtiyorov/django_photo_gallery/assets/137509986/c30d5b6a-a26d-45d2-9e0a-4eadcbb6b901)
+![image](https://github.com/fazliddinbaxtiyorov/Todo_App_Django/assets/137509986/95e8e0c9-70c2-49e4-9e91-4aceeadfdc6d)
